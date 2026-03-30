@@ -7,7 +7,7 @@ void main(List<String> args) {
   Observer observer2 = Student("Mohammed Hissy");
   Observer observer3 = Student("Karem Abu Shbak");
 
-  Course course1 = Course("Mastering Flutter from zero to hero");
+  Course course1 = Course(name: "Mastering Flutter from zero to hero");
   course1.subscribe(observer1);
   course1.subscribe(observer2);
   course1.subscribe(observer3);

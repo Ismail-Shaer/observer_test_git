@@ -5,7 +5,7 @@ import 'subject.dart';
 class Course implements Subject {
   String? name;
   String? availability;
-  Course(this.name);
+  Course({required this.name});
   List<Observer> subscribers = [];
   @override
   subscribe(Observer o) {
