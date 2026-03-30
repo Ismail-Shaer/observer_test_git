@@ -3,11 +3,11 @@ import 'student.dart';
 import 'observer.dart';
 
 void main(List<String> args) {
-  Observer observer1 = Student("Ahmed");
-  Observer observer2 = Student("Lana");
-  Observer observer3 = Student("Hatem");
+  Observer observer1 = Student("Ismail Shaer");
+  Observer observer2 = Student("Mohammed Hissy");
+  Observer observer3 = Student("Karem Abu Shbak");
 
-  Course course1 = Course("Java course");
+  Course course1 = Course("Mastering Flutter from zero to hero");
   course1.subscribe(observer1);
   course1.subscribe(observer2);
   course1.subscribe(observer3);

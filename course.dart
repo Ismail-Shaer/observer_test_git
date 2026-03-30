@@ -1,6 +1,7 @@
 import 'observer.dart';
 import 'subject.dart';
 
+// this is observable file or subject file that observers want to know and be updatedc
 class Course implements Subject {
   String? name;
   String? availability;
