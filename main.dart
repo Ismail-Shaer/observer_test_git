@@ -11,7 +11,6 @@ void main(List<String> args) {
   course.subscribe(observer1);
   course.subscribe(observer2);
   course.subscribe(observer3);
-  course.unsbscribe(observer2);
 
   course.setAvailability(true);
 }
